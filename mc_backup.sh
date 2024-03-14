@@ -1,8 +1,4 @@
 #!/usr/bin/env bash
-wall "Clearing Log files..."
-cd ~/mc_server/logs
-touch tmp
-rm `find | grep .gz$` tmp
 cd ~/mc_server
 wall "Minecraft Server Backing up.."
 git add .
