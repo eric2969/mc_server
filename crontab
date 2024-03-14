@@ -1,0 +1,4 @@
+@reboot ~/mc_start.sh
+0 0 * * * ~/mc_backup.sh
+@reboot ~/mc_start.sh
+0 0 * * * ~/mc_backup.sh
