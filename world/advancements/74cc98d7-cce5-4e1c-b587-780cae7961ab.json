@@ -7,10 +7,13 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:old_growth_birch_forest": "2024-03-15 18:15:47 +0000",
       "minecraft:beach": "2024-03-07 15:18:21 +0000",
       "minecraft:dark_forest": "2024-03-07 15:05:16 +0000",
       "minecraft:windswept_forest": "2024-03-07 15:04:18 +0000",
       "minecraft:ocean": "2024-03-13 17:35:55 +0000",
+      "minecraft:river": "2024-03-15 18:27:03 +0000",
+      "minecraft:swamp": "2024-03-15 18:12:21 +0000",
       "minecraft:birch_forest": "2024-03-07 15:05:19 +0000",
       "minecraft:lush_caves": "2024-03-13 17:25:23 +0000"
     },
@@ -488,6 +491,9 @@
     "criteria": {
       "minecraft:skeleton": "2024-03-14 11:51:44 +0000",
       "minecraft:phantom": "2024-03-13 17:05:58 +0000",
+      "minecraft:zombified_piglin": "2024-03-15 16:35:45 +0000",
+      "minecraft:enderman": "2024-03-15 16:28:08 +0000",
+      "minecraft:magma_cube": "2024-03-15 16:44:24 +0000",
       "minecraft:spider": "2024-03-12 16:31:55 +0000",
       "minecraft:zombie": "2024-03-07 15:55:09 +0000"
     },
@@ -748,7 +754,8 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "bread": "2024-03-13 04:58:18 +0000",
-      "poisonous_potato": "2024-03-14 12:23:47 +0000"
+      "poisonous_potato": "2024-03-14 12:23:47 +0000",
+      "carrot": "2024-03-15 18:35:17 +0000"
     },
     "done": false
   },
@@ -1955,6 +1962,304 @@
   "minecraft:recipes/decorations/enchanting_table": {
     "criteria": {
       "has_obsidian": "2024-03-15 12:17:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2024-03-15 15:12:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_gold_block": {
+    "criteria": {
+      "has_raw_gold": "2024-03-15 15:12:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2024-03-15 15:12:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_birch_wood": {
+    "criteria": {
+      "has_log": "2024-03-15 15:18:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-03-15 15:18:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2024-03-15 16:16:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2024-03-15 16:16:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2024-03-15 16:23:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2024-03-15 18:57:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2024-03-15 18:09:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2024-03-15 18:09:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2024-03-15 16:23:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2024-03-15 17:05:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_slab": {
+    "criteria": {
+      "has_planks": "2024-03-15 19:01:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_sign": {
+    "criteria": {
+      "has_planks": "2024-03-15 19:01:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-03-15 19:01:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2024-03-15 17:05:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2024-03-15 16:23:29 +0000",
+      "minecraft:basalt_deltas": "2024-03-15 16:23:57 +0000",
+      "minecraft:warped_forest": "2024-03-15 16:24:15 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_sword": "2024-03-15 16:35:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-03-15 16:23:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/terracotta": {
+    "criteria": {
+      "has_clay_block": "2024-03-15 17:21:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2024-03-15 17:27:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-03-15 19:01:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:cow": "2024-03-15 17:51:55 +0000",
+      "minecraft:chicken": "2024-03-15 17:52:11 +0000",
+      "minecraft:sheep": "2024-03-15 17:51:54 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2024-03-15 18:57:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2024-03-15 16:23:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_sword": "2024-03-15 16:35:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-03-15 19:01:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_door": {
+    "criteria": {
+      "has_planks": "2024-03-15 19:01:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2024-03-15 17:31:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2024-03-15 18:09:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2024-03-15 19:01:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_fence": {
+    "criteria": {
+      "has_planks": "2024-03-15 19:01:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2024-03-15 18:09:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_planks": {
+    "criteria": {
+      "has_logs": "2024-03-15 16:27:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2024-03-15 17:27:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2024-03-15 16:23:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_hyphae": {
+    "criteria": {
+      "has_log": "2024-03-15 16:27:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2024-03-15 17:27:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2024-03-15 16:23:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2024-03-15 17:27:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2024-03-15 17:27:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2024-03-15 16:23:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_button": {
+    "criteria": {
+      "has_planks": "2024-03-15 19:01:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2024-03-15 16:23:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2024-03-15 16:23:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2024-03-15 17:51:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
+    "criteria": {
+      "has_warped_fungus": "2024-03-15 16:42:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_the_recipe": "2024-03-15 18:43:25 +0000"
     },
     "done": true
   },
