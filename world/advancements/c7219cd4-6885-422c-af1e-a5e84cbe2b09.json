@@ -1653,15 +1653,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/magenta_dye_from_lilac": {
-    "criteria": {
-      "has_lilac": "2024-03-17 14:20:22 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/oak_planks": {
     "criteria": {
       "has_logs": "2024-03-17 14:17:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2024-03-17 14:17:24 +0000"
     },
     "done": true
   },
@@ -1677,9 +1677,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oak_wood": {
+  "minecraft:recipes/misc/magenta_dye_from_lilac": {
     "criteria": {
-      "has_log": "2024-03-17 14:17:24 +0000"
+      "has_lilac": "2024-03-17 14:20:22 +0000"
     },
     "done": true
   },
