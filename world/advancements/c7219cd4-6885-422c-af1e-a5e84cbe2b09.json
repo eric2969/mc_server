@@ -13,6 +13,7 @@
       "minecraft:forest": "2024-03-15 11:55:09 +0000",
       "minecraft:taiga": "2024-03-15 11:51:03 +0000",
       "minecraft:river": "2024-03-15 11:55:36 +0000",
+      "minecraft:lukewarm_ocean": "2024-03-29 07:12:42 +0000",
       "minecraft:snowy_plains": "2024-03-15 11:59:02 +0000",
       "minecraft:lush_caves": "2024-03-15 15:05:31 +0000",
       "minecraft:snowy_taiga": "2024-03-15 12:02:27 +0000",
@@ -20,10 +21,12 @@
       "minecraft:frozen_river": "2024-03-15 12:02:02 +0000",
       "minecraft:windswept_forest": "2024-03-07 15:04:55 +0000",
       "minecraft:jungle": "2024-03-28 10:55:57 +0000",
+      "minecraft:ocean": "2024-03-29 06:41:18 +0000",
       "minecraft:swamp": "2024-03-15 11:48:34 +0000",
       "minecraft:birch_forest": "2024-03-07 15:08:34 +0000",
       "minecraft:windswept_hills": "2024-03-15 11:58:32 +0000",
-      "minecraft:plains": "2024-03-15 12:06:53 +0000"
+      "minecraft:plains": "2024-03-15 12:06:53 +0000",
+      "minecraft:deep_lukewarm_ocean": "2024-03-29 07:12:45 +0000"
     },
     "done": false
   },
@@ -2015,15 +2018,141 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2024-03-28 11:01:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_gold_block": {
     "criteria": {
       "has_gold_block": "2024-03-28 11:02:16 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
     "criteria": {
-      "has_iron_nugget": "2024-03-28 11:01:27 +0000"
+      "has_boat": "2024-03-29 06:37:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_chest_raft": {
+    "criteria": {
+      "has_boat": "2024-03-29 06:37:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-03-29 06:37:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-03-29 06:37:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-03-29 06:37:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-03-29 06:37:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-03-29 06:37:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-03-29 06:37:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-03-29 06:37:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2024-03-29 06:47:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2024-03-29 06:47:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2024-03-29 06:48:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2024-03-29 07:02:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-03-29 07:02:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2024-03-29 07:02:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-03-29 07:02:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2024-03-29 07:02:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-03-29 07:02:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2024-03-29 07:02:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2024-03-29 07:02:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2024-03-29 07:02:54 +0000"
     },
     "done": true
   },
