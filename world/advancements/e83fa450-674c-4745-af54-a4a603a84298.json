@@ -2968,15 +2968,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/gray_bed": {
+  "minecraft:recipes/misc/vex_armor_trim_smithing_template_smithing_trim": {
     "criteria": {
-      "has_gray_wool": "2024-04-02 17:26:20 +0000"
+      "has_smithing_trim_template": "2024-04-02 17:07:33 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_gray_bed": {
+  "minecraft:recipes/misc/vex_armor_trim_smithing_template": {
     "criteria": {
-      "has_light_gray_wool": "2024-04-02 17:26:20 +0000"
+      "has_vex_armor_trim_smithing_template": "2024-04-02 17:07:33 +0000"
     },
     "done": true
   },
@@ -2986,21 +2986,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/lapis_lazuli": {
-    "criteria": {
-      "has_lapis_block": "2024-04-02 17:26:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/vex_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2024-04-02 17:07:33 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/blue_carpet": {
     "criteria": {
       "has_blue_wool": "2024-04-02 17:17:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_banner": {
+    "criteria": {
+      "has_blue_wool": "2024-04-02 17:17:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2024-04-02 17:26:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_bed": {
+    "criteria": {
+      "has_light_gray_wool": "2024-04-02 17:26:20 +0000"
     },
     "done": true
   },
@@ -3028,15 +3034,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blue_banner": {
+  "minecraft:recipes/misc/lapis_lazuli": {
     "criteria": {
-      "has_blue_wool": "2024-04-02 17:17:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/vex_armor_trim_smithing_template": {
-    "criteria": {
-      "has_vex_armor_trim_smithing_template": "2024-04-02 17:07:33 +0000"
+      "has_lapis_block": "2024-04-02 17:26:34 +0000"
     },
     "done": true
   },
