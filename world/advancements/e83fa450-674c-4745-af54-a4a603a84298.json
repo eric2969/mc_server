@@ -8,6 +8,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:beach": "2024-03-12 16:24:44 +0000",
+      "minecraft:old_growth_pine_taiga": "2024-04-03 15:37:54 +0000",
       "minecraft:dark_forest": "2024-03-12 16:31:50 +0000",
       "minecraft:forest": "2024-03-12 17:45:04 +0000",
       "minecraft:taiga": "2024-04-02 16:18:46 +0000",
@@ -275,6 +276,7 @@
       "minecraft:magma_cube": "2024-03-22 18:47:47 +0000",
       "minecraft:spider": "2024-03-12 18:09:11 +0000",
       "minecraft:piglin_brute": "2024-03-31 14:42:33 +0000",
+      "minecraft:vex": "2024-04-03 15:57:59 +0000",
       "minecraft:zombie": "2024-03-12 17:27:45 +0000",
       "minecraft:creeper": "2024-03-13 18:52:54 +0000",
       "minecraft:drowned": "2024-03-15 18:03:11 +0000",
@@ -3037,6 +3039,60 @@
   "minecraft:recipes/misc/lapis_lazuli": {
     "criteria": {
       "has_lapis_block": "2024-04-02 17:26:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2024-04-03 15:45:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/allay_deliver_item_to_player": {
+    "criteria": {
+      "allay_deliver_item_to_player": "2024-04-03 16:00:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_banner": {
+    "criteria": {
+      "has_brown_wool": "2024-04-03 17:42:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_bed": {
+    "criteria": {
+      "has_brown_wool": "2024-04-03 17:42:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_carpet": {
+    "criteria": {
+      "has_brown_wool": "2024-04-03 17:42:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2024-04-03 17:13:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2024-04-03 17:25:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2024-04-03 17:25:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2024-04-03 17:13:49 +0000"
     },
     "done": true
   },

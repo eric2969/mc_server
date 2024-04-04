@@ -2577,5 +2577,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2024-04-03 16:06:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2024-04-03 16:04:56 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3700
 }

@@ -107,4 +107,7 @@ recipes:
     - www
     - wew
     - www
+max-height: 255
+min-height: 0
+worldSounds: true
 

@@ -23,6 +23,7 @@
       "minecraft:birch_forest": "2024-03-07 15:05:19 +0000",
       "minecraft:savanna": "2024-03-30 16:05:34 +0000",
       "minecraft:bamboo_jungle": "2024-03-29 15:14:12 +0000",
+      "minecraft:plains": "2024-04-03 15:15:42 +0000",
       "minecraft:deep_lukewarm_ocean": "2024-03-30 16:32:19 +0000"
     },
     "done": false
@@ -3203,6 +3204,54 @@
   "minecraft:nether/return_to_sender": {
     "criteria": {
       "killed_ghast": "2024-03-31 15:07:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/vex_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-04-03 15:52:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/vex_armor_trim_smithing_template": {
+    "criteria": {
+      "has_vex_armor_trim_smithing_template": "2024-04-03 15:52:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2024-04-03 15:55:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2024-04-03 16:06:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2024-04-03 16:06:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2024-04-03 16:06:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_wart_block": {
+    "criteria": {
+      "has_nether_wart": "2024-04-03 16:43:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_bricks": {
+    "criteria": {
+      "has_nether_wart": "2024-04-03 16:43:22 +0000"
     },
     "done": true
   },
