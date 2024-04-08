@@ -7,28 +7,35 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:flower_forest": "2024-04-04 18:27:25 +0000",
-      "minecraft:beach": "2024-03-07 15:18:21 +0000",
-      "minecraft:dark_forest": "2024-03-07 15:05:16 +0000",
+      "minecraft:snowy_slopes": "2024-04-07 16:01:53 +0000",
       "minecraft:forest": "2024-03-16 16:30:40 +0000",
       "minecraft:taiga": "2024-03-16 16:29:29 +0000",
-      "minecraft:river": "2024-03-15 18:27:03 +0000",
-      "minecraft:lukewarm_ocean": "2024-03-29 15:10:57 +0000",
-      "minecraft:snowy_plains": "2024-03-16 16:30:45 +0000",
       "minecraft:lush_caves": "2024-03-13 17:25:23 +0000",
-      "minecraft:old_growth_birch_forest": "2024-03-15 18:15:47 +0000",
+      "minecraft:frozen_ocean": "2024-04-07 15:47:49 +0000",
+      "minecraft:frozen_river": "2024-04-07 16:04:14 +0000",
       "minecraft:windswept_forest": "2024-03-07 15:04:18 +0000",
+      "minecraft:deep_frozen_ocean": "2024-04-07 15:59:28 +0000",
       "minecraft:ocean": "2024-03-13 17:35:55 +0000",
       "minecraft:jungle": "2024-03-29 15:10:21 +0000",
       "minecraft:sunflower_plains": "2024-04-04 18:28:59 +0000",
-      "minecraft:swamp": "2024-03-15 18:12:21 +0000",
       "minecraft:birch_forest": "2024-03-07 15:05:19 +0000",
       "minecraft:windswept_hills": "2024-04-04 16:36:59 +0000",
       "minecraft:old_growth_spruce_taiga": "2024-04-04 18:25:37 +0000",
-      "minecraft:savanna": "2024-03-30 16:05:34 +0000",
+      "minecraft:snowy_beach": "2024-04-07 15:58:03 +0000",
       "minecraft:bamboo_jungle": "2024-03-29 15:14:12 +0000",
-      "minecraft:plains": "2024-04-03 15:15:42 +0000",
-      "minecraft:deep_lukewarm_ocean": "2024-03-30 16:32:19 +0000"
+      "minecraft:deep_lukewarm_ocean": "2024-03-30 16:32:19 +0000",
+      "minecraft:flower_forest": "2024-04-04 18:27:25 +0000",
+      "minecraft:beach": "2024-03-07 15:18:21 +0000",
+      "minecraft:dark_forest": "2024-03-07 15:05:16 +0000",
+      "minecraft:river": "2024-03-15 18:27:03 +0000",
+      "minecraft:lukewarm_ocean": "2024-03-29 15:10:57 +0000",
+      "minecraft:snowy_plains": "2024-03-16 16:30:45 +0000",
+      "minecraft:stony_shore": "2024-04-07 15:58:50 +0000",
+      "minecraft:snowy_taiga": "2024-04-07 15:47:28 +0000",
+      "minecraft:old_growth_birch_forest": "2024-03-15 18:15:47 +0000",
+      "minecraft:swamp": "2024-03-15 18:12:21 +0000",
+      "minecraft:savanna": "2024-03-30 16:05:34 +0000",
+      "minecraft:plains": "2024-04-03 15:15:42 +0000"
     },
     "done": false
   },
@@ -515,6 +522,7 @@
       "minecraft:piglin": "2024-03-30 19:32:14 +0000",
       "minecraft:vindicator": "2024-03-30 16:39:23 +0000",
       "minecraft:enderman": "2024-03-15 16:28:08 +0000",
+      "minecraft:silverfish": "2024-04-07 17:08:30 +0000",
       "minecraft:magma_cube": "2024-03-15 16:44:24 +0000",
       "minecraft:spider": "2024-03-12 16:31:55 +0000",
       "minecraft:piglin_brute": "2024-03-31 14:46:17 +0000",
@@ -786,6 +794,7 @@
       "cooked_chicken": "2024-03-31 12:31:47 +0000",
       "rotten_flesh": "2024-03-24 13:57:08 +0000",
       "cooked_mutton": "2024-03-20 03:39:40 +0000",
+      "cooked_cod": "2024-04-07 16:33:16 +0000",
       "cooked_beef": "2024-03-17 12:57:49 +0000",
       "baked_potato": "2024-03-16 09:43:16 +0000",
       "poisonous_potato": "2024-03-14 12:23:47 +0000",
@@ -3360,6 +3369,204 @@
   "minecraft:recipes/misc/wheat": {
     "criteria": {
       "has_hay_block": "2024-04-04 19:43:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2024-04-07 14:38:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2024-04-07 14:38:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2024-04-07 14:38:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2024-04-07 15:02:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2024-04-07 15:02:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2024-04-07 15:02:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2024-04-07 15:30:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2024-04-07 15:30:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2024-04-07 15:30:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2024-04-07 15:30:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2024-04-07 15:30:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-04-07 17:10:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2024-04-07 17:15:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2024-04-07 17:08:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2024-04-07 17:08:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_stone_bricks": {
+    "criteria": {
+      "has_stone_bricks": "2024-04-07 17:08:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2024-04-07 17:08:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-04-07 17:03:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2024-04-07 17:03:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2024-04-07 16:04:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template": {
+    "criteria": {
+      "has_eye_armor_trim_smithing_template": "2024-04-07 17:10:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2024-04-07 17:03:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2024-04-07 17:08:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_tag": "2024-04-07 17:03:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-04-07 17:03:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2024-04-07 16:59:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-04-07 17:03:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-04-07 17:03:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_ice": {
+    "criteria": {
+      "has_packed_ice": "2024-04-07 16:25:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-04-07 17:03:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2024-04-07 17:08:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-04-07 17:03:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2024-04-07 16:04:01 +0000"
     },
     "done": true
   },
