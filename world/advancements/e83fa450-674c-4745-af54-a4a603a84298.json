@@ -14,6 +14,7 @@
       "minecraft:lush_caves": "2024-03-13 15:42:28 +0000",
       "minecraft:ice_spikes": "2024-04-07 16:04:40 +0000",
       "minecraft:frozen_ocean": "2024-04-07 15:41:34 +0000",
+      "minecraft:eroded_badlands": "2024-04-13 17:47:53 +0000",
       "minecraft:frozen_river": "2024-04-07 15:52:26 +0000",
       "minecraft:windswept_forest": "2024-03-12 16:33:07 +0000",
       "minecraft:deep_frozen_ocean": "2024-04-07 15:56:09 +0000",
@@ -24,7 +25,9 @@
       "minecraft:windswept_hills": "2024-04-02 16:34:41 +0000",
       "minecraft:old_growth_spruce_taiga": "2024-04-02 16:45:58 +0000",
       "minecraft:snowy_beach": "2024-04-07 15:41:33 +0000",
+      "minecraft:wooded_badlands": "2024-04-13 16:13:25 +0000",
       "minecraft:deep_lukewarm_ocean": "2024-04-06 18:56:42 +0000",
+      "minecraft:badlands": "2024-04-13 16:03:30 +0000",
       "minecraft:flower_forest": "2024-04-04 18:24:42 +0000",
       "minecraft:beach": "2024-03-12 16:24:44 +0000",
       "minecraft:dark_forest": "2024-03-12 16:31:50 +0000",
@@ -34,6 +37,7 @@
       "minecraft:snowy_plains": "2024-04-07 15:39:03 +0000",
       "minecraft:snowy_taiga": "2024-04-07 15:40:18 +0000",
       "minecraft:old_growth_birch_forest": "2024-03-12 17:56:31 +0000",
+      "minecraft:deep_dark": "2024-04-13 17:10:21 +0000",
       "minecraft:swamp": "2024-03-13 16:45:53 +0000",
       "minecraft:windswept_gravelly_hills": "2024-04-02 16:42:54 +0000",
       "minecraft:savanna": "2024-04-04 18:48:43 +0000",
@@ -280,27 +284,28 @@
       "minecraft:pillager": "2024-03-13 17:11:27 +0000",
       "minecraft:blaze": "2024-03-29 17:35:57 +0000",
       "minecraft:skeleton": "2024-03-12 16:33:44 +0000",
-      "minecraft:phantom": "2024-04-07 14:17:56 +0000",
-      "minecraft:witch": "2024-04-04 17:42:56 +0000",
-      "minecraft:wither_skeleton": "2024-03-29 17:40:36 +0000",
       "minecraft:ravager": "2024-03-30 17:01:18 +0000",
       "minecraft:ghast": "2024-03-29 18:13:47 +0000",
       "minecraft:hoglin": "2024-03-31 11:42:38 +0000",
-      "minecraft:shulker": "2024-04-10 17:23:36 +0000",
-      "minecraft:piglin": "2024-03-31 14:37:36 +0000",
       "minecraft:vindicator": "2024-03-30 17:00:57 +0000",
-      "minecraft:enderman": "2024-03-13 16:20:33 +0000",
-      "minecraft:silverfish": "2024-04-07 17:08:26 +0000",
       "minecraft:magma_cube": "2024-03-22 18:47:47 +0000",
       "minecraft:spider": "2024-03-12 18:09:11 +0000",
       "minecraft:piglin_brute": "2024-03-31 14:42:33 +0000",
+      "minecraft:creeper": "2024-03-13 18:52:54 +0000",
+      "minecraft:slime": "2024-03-13 18:15:40 +0000",
+      "minecraft:evoker": "2024-04-02 17:49:35 +0000",
+      "minecraft:phantom": "2024-04-07 14:17:56 +0000",
+      "minecraft:witch": "2024-04-04 17:42:56 +0000",
+      "minecraft:wither_skeleton": "2024-03-29 17:40:36 +0000",
+      "minecraft:shulker": "2024-04-10 17:23:36 +0000",
+      "minecraft:cave_spider": "2024-04-13 16:03:51 +0000",
+      "minecraft:piglin": "2024-03-31 14:37:36 +0000",
+      "minecraft:enderman": "2024-03-13 16:20:33 +0000",
+      "minecraft:silverfish": "2024-04-07 17:08:26 +0000",
       "minecraft:vex": "2024-04-03 15:57:59 +0000",
       "minecraft:zombie": "2024-03-12 17:27:45 +0000",
-      "minecraft:creeper": "2024-03-13 18:52:54 +0000",
       "minecraft:drowned": "2024-03-15 18:03:11 +0000",
-      "minecraft:zombie_villager": "2024-03-13 16:33:45 +0000",
-      "minecraft:slime": "2024-03-13 18:15:40 +0000",
-      "minecraft:evoker": "2024-04-02 17:49:35 +0000"
+      "minecraft:zombie_villager": "2024-03-13 16:33:45 +0000"
     },
     "done": false
   },
@@ -3765,6 +3770,150 @@
   "minecraft:recipes/decorations/armor_stand": {
     "criteria": {
       "has_stone_slab": "2024-04-12 19:05:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-13 16:24:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-13 16:24:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2024-04-13 19:22:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_glazed_terracotta": {
+    "criteria": {
+      "has_yellow_terracotta": "2024-04-13 16:09:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-13 16:24:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2024-04-13 18:20:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-13 16:24:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_glazed_terracotta": {
+    "criteria": {
+      "has_white_terracotta": "2024-04-13 16:10:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_glazed_terracotta": {
+    "criteria": {
+      "has_orange_terracotta": "2024-04-13 16:10:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2024-04-13 18:20:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-13 16:24:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-13 16:24:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-13 16:24:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-13 16:24:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2024-04-13 17:13:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-13 16:24:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-13 16:24:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-13 16:24:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-13 16:24:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-13 16:24:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-13 16:24:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-13 16:24:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-13 16:24:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/honey_block_slide": {
+    "criteria": {
+      "honey_block_slide": "2024-04-13 19:05:27 +0000"
     },
     "done": true
   },
