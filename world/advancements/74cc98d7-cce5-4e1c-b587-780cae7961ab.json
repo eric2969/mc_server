@@ -533,6 +533,7 @@
       "minecraft:piglin": "2024-03-30 19:32:14 +0000",
       "minecraft:enderman": "2024-03-15 16:28:08 +0000",
       "minecraft:silverfish": "2024-04-07 17:08:30 +0000",
+      "minecraft:stray": "2024-04-14 17:10:56 +0000",
       "minecraft:vex": "2024-03-30 16:48:31 +0000",
       "minecraft:zombie": "2024-03-07 15:55:09 +0000",
       "minecraft:drowned": "2024-04-04 18:31:48 +0000",
@@ -3858,12 +3859,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/honey_bottle": {
-    "criteria": {
-      "has_honey_block": "2024-04-13 19:29:45 +0000"
-    },
-    "done": true
-  },
   "minecraft:adventure/kill_mob_near_sculk_catalyst": {
     "criteria": {
       "kill_mob_near_sculk_catalyst": "2024-04-13 16:57:01 +0000"
@@ -3876,9 +3871,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/honey_bottle": {
+    "criteria": {
+      "has_honey_block": "2024-04-13 19:29:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/honey_block_slide": {
     "criteria": {
       "honey_block_slide": "2024-04-13 19:45:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2024-04-14 17:09:47 +0000"
     },
     "done": true
   },
