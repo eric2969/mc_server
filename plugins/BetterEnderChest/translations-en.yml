@@ -1,0 +1,69 @@
+CAN_ONLY_OPEN_OWN_CHEST: You can only open your own Ender Chest.
+DEFAULT_CHEST_TITLE: Editing the default Ender Chest
+ENDER_CHESTS_DISABLED: Ender Chests have been disabled, because chests cannot be saved
+  or loaded. Ask the admin of this server to look in the console.
+GROUP_NOT_FOUND: The group in which the inventory %s should be was not found.
+ITEM_NOT_ALLOWED: This item may not be placed in Ender Chests.
+NO_PERMISSION: You don't have permission to do this.
+OVERFLOWING_CHEST_CLOSE: Some slots in this Ender Chest were disabled, but somehow
+  there were items in those slots. Dropping them on the ground.
+PLAYER_NOT_SEEN_ON_SERVER: The player %s was never seen on this server.
+PRIVATE_CHEST_TITLE: Ender Chest (%s)
+PUBLIC_CHEST_CLOSE_MESSAGE: This was a public Ender Chest. Remember that your items
+  aren't safe.
+PUBLIC_CHEST_TITLE: Ender Chest (Public Chest)
+COMMAND_MANAGER_COMMAND_NOT_FOUND: 'Command (%s) not found. Available commands:'
+COMMAND_MANAGER_WRONG_COMMAND_USAGE: 'Wrong command usage! Correct usage:'
+COMMAND_MANAGER_NO_AVAILABLE_COMMANDS: Sorry, no available commands for your rank.
+DELETE_INV_ADMIN_DELETED_INVENTORY: An admin just deleted this inventory.
+DELETE_INV_SUCCESSFULLY_REMOVED_INVENTORY: Successfully removed inventory!
+DELETE_INV_HELP_TEXT: deletes an Ender inventory
+DELETE_INV_USAGE: <player>
+DELETE_COMMAND: deleteinv
+GIVE_FAILED_READ_MATERIAL_AMOUNT_EXTRA_BRACE: 'Failed to read material and amount:
+  found extra } in %s'
+GIVE_FAILED_READ_MATERIAL_AMOUNT_MISSING_BRACE: 'Failed to read material and amount:
+  missing } in %s'
+GIVE_INVALID_MATERIAL: '%s is not a valid material!'
+GIVE_INVALID_AMOUNT: is not a valid amount!
+GIVE_AMOUNT_CAPPED: Amount was capped at %s.
+GIVE_FAILED_SET_NBT_TAG: Could not set NBT tag %s. Invalid tag?
+GIVE_HELP_TEXT: gives an item to an Ender inventory.
+GIVE_COMMAND: give
+GIVE_USAGE: <player> <item> [count] [damage]
+GIVE_ITEM_ADDED_SINGLE: Item added to the Ender Chest inventory of %s
+GIVE_ITEM_ADDED_MULTIPLE: Items added to the Ender Chest inventory of %s
+GIVE_ITEM_NOT_ADDED_SINGLE_FULL: Item has not been added; Ender Chest inventory of
+  %s was full.
+GIVE_ITEMS_NOT_ADDED_FULL: All items have not been added; Ender Chest inventory of
+  %s was full.
+GIVE_ITEM_NOT_ADDED_SINGLE: One item has not been added; Ender Chest inventory of
+  %s was full.
+GIVE_ITEMS_NOT_ADDED: '%s items have not been added; Ender Chest inventory of %s was
+  full.'
+LIST_COMMAND_MESSAGE: 'All currently loaded inventories:'
+LIST_HELP_TEXT: lists all loaded Ender inventories
+LIST_COMMAND: list
+LIST_USAGE: ''
+CONSOLE_ERROR: You cannot open an Ender inventory from the console. Use a NBT editor.
+OPEN_INV_HELP_TEXT: opens an Ender inventory
+OPEN_INV_COMMAND: openinv
+OPEN_INV_USAGE: '[player]'
+RELOAD_SAVING_INVENTORIES: Saving all inventories...
+RELOAD_CONFIG_AND_CHESTS_RELOADED: Configuration and chests reloaded.
+RELOAD_HELP_TEXT: reload the chests and the config.yml.
+RELOAD_NAME: reload
+RELOAD_USAGE: ''
+SWAP_INV_GROUP_NOT_FOUND: Group of inventory '%s' not found.
+SWAP_INV_HELP_TEXT: swaps two Ender inventories
+SWAP_INV_COMMAND: swapinv
+SWAP_INV_USAGE: <player1> <player2>
+SWAP_INV_CLOSE_MESSAGE: An admin just swapped this inventory with another.
+SWAP_INV_SUCCESS_MESSAGE: Successfully swapped inventories!
+VIEW_INV_HELP_TEXT: views an Ender inventory
+VIEW_INV_COMMAND: viewinv
+VIEW_INV_USAGE: <player>
+SPECIAL_CHEST_NAME: SpecialChest[%s]
+UUID_CHEST_NAME: PlayerChest[uuid=%S,name=%S]
+EVENT_HANDLER_DEFAULT_EDITET: Default chest is edited. After this chest is (auto)saved,
+  new players will find those items in their Ender Chest.
