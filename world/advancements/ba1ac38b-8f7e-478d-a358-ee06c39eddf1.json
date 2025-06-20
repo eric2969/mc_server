@@ -642,12 +642,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_light_gray_bed": {
-    "criteria": {
-      "has_needed_dye": "2025-06-09 07:42:34 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_light_gray_wool": {
     "criteria": {
       "has_needed_dye": "2025-06-09 07:42:34 +0000"
@@ -669,12 +663,6 @@
   "minecraft:recipes/decorations/light_gray_candle": {
     "criteria": {
       "has_light_gray_dye": "2025-06-09 07:42:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_light_gray_carpet": {
-    "criteria": {
-      "has_needed_dye": "2025-06-09 07:42:34 +0000"
     },
     "done": true
   },
@@ -792,12 +780,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_white_carpet": {
-    "criteria": {
-      "has_needed_dye": "2025-06-09 07:50:45 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_white_wool": {
     "criteria": {
       "has_needed_dye": "2025-06-09 07:50:45 +0000"
@@ -825,12 +807,6 @@
   "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
     "criteria": {
       "has_white_dye": "2025-06-09 07:50:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_white_bed": {
-    "criteria": {
-      "has_needed_dye": "2025-06-09 07:50:45 +0000"
     },
     "done": true
   },
@@ -2769,12 +2745,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_black_bed": {
-    "criteria": {
-      "has_needed_dye": "2025-06-12 08:04:43 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/black_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_black_dye": "2025-06-12 08:04:43 +0000"
@@ -2784,12 +2754,6 @@
   "minecraft:recipes/decorations/black_candle": {
     "criteria": {
       "has_black_dye": "2025-06-12 08:04:43 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_black_carpet": {
-    "criteria": {
-      "has_needed_dye": "2025-06-12 08:04:43 +0000"
     },
     "done": true
   },
@@ -3918,7 +3882,7 @@
   },
   "minecraft:recipes/tools/lead": {
     "criteria": {
-      "has_slime_ball": "2025-06-13 19:33:31 +0000"
+      "has_string": "2025-06-18 14:53:37 +0000"
     },
     "done": true
   },
@@ -4234,17 +4198,41 @@
     },
     "done": true
   },
-  "minecraft:story/lava_bucket": {
-    "criteria": {
-      "lava_bucket": "2025-06-18 05:19:23 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/shulker_box": {
     "criteria": {
       "has_shulker_shell": "2025-06-18 05:15:39 +0000"
     },
     "done": true
   },
-  "DataVersion": 4325
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-06-18 05:19:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_black_harness": {
+    "criteria": {
+      "has_needed_dye": "2025-06-18 14:53:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_black_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-06-18 14:53:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_black_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-06-18 14:53:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/saddle": {
+    "criteria": {
+      "has_leather": "2025-06-18 14:53:37 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 4435
 }
