@@ -3880,12 +3880,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/lead": {
-    "criteria": {
-      "has_string": "2025-06-18 14:53:37 +0000"
-    },
-    "done": true
-  },
   "minecraft:husbandry/tame_an_animal": {
     "criteria": {
       "tamed_animal": "2025-06-14 05:46:58 +0000"
@@ -4210,6 +4204,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_string": "2025-06-18 14:53:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/dye_black_harness": {
     "criteria": {
       "has_needed_dye": "2025-06-18 14:53:37 +0000"
@@ -4231,6 +4231,30 @@
   "minecraft:recipes/combat/saddle": {
     "criteria": {
       "has_leather": "2025-06-18 14:53:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_white_harness": {
+    "criteria": {
+      "has_needed_dye": "2025-06-21 17:28:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_white_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-06-21 17:28:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_white_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-06-21 17:28:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2025-06-21 17:28:42 +0000"
     },
     "done": true
   },
