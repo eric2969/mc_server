@@ -413,8 +413,10 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "bread": "2025-06-13 14:46:37 +0000",
+      "golden_apple": "2025-06-22 11:59:58 +0000",
       "cooked_chicken": "2025-06-13 15:55:47 +0000",
       "cooked_mutton": "2025-06-13 14:58:52 +0000",
+      "cooked_cod": "2025-06-22 12:28:02 +0000",
       "cooked_beef": "2025-06-13 17:45:31 +0000",
       "baked_potato": "2025-06-14 10:03:18 +0000",
       "beetroot": "2025-06-16 12:18:59 +0000"
@@ -453,7 +455,8 @@
       "minecraft:spider": "2025-06-16 11:53:40 +0000",
       "minecraft:vex": "2025-06-13 15:57:01 +0000",
       "minecraft:zombie": "2025-06-13 14:52:29 +0000",
-      "minecraft:creeper": "2025-06-16 11:26:07 +0000"
+      "minecraft:creeper": "2025-06-16 11:26:07 +0000",
+      "minecraft:wither": "2025-06-22 12:26:24 +0000"
     },
     "done": false
   },
@@ -3648,6 +3651,30 @@
   "minecraft:recipes/tools/lead": {
     "criteria": {
       "has_string": "2025-06-18 15:17:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/honey_block_slide": {
+    "criteria": {
+      "honey_block_slide": "2025-06-21 18:03:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2025-06-21 20:39:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2025-06-22 15:28:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2025-06-22 15:28:36 +0000"
     },
     "done": true
   },
