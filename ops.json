@@ -58,5 +58,11 @@
     "name": "chuanEgg",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "b293491d-732a-42c7-8691-710e301cfe25",
+    "name": "EC1006",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]
